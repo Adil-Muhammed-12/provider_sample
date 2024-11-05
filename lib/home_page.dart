@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
     return Consumer<CounterProvider>(
       builder: (context,counterProvider,child) {
         return Scaffold(
+          //git init
           floatingActionButton: FloatingActionButton(
             backgroundColor: Colors.lightBlue,
             onPressed: () {
